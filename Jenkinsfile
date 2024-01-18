@@ -5,7 +5,7 @@ pipeline {
     stage('test-script') {
       steps {
         sh '''
-            touch test.txt
+            touch test2.txt
             '''
       }
     }
